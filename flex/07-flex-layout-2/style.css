@@ -23,6 +23,65 @@ body {
 
 .card {
   border: 1px solid #eee;
-  box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+  box-shadow: 2px 4px 16px rgba(0, 0, 0, .06);
+  border-radius: 4px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  font-size: 32px;
+  font-weight: 900;
+  display: flex;
+  align-items: center;
+  padding-left: 16px;
+  border: 2px solid black;
+}
+
+.main {
+  display: flex;
+  flex: 1;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+}
+
+.sidebar {
+  display: flex;
+  border: 2px solid black;
+  min-width: 300px;
+  padding: 16px;
+}
+
+.container {
+  display: flex;
+  padding: 32px;
+  flex-wrap: wrap;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  display: flex;
+  padding: 10px;
+  width: 300px;
+  border: 1px solid #eee;
+  box-shadow: 2px 4px 16px rgba(0, 0, 0, .06);
   border-radius: 4px;
 }
